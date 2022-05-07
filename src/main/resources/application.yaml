@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+      enabled: true
+
+translate:
+  google:
+    url: https://script.google.com/macros/s/AKfycbxh9fMtD9qEkgvl0mNgId26rRtKQ9i7OhSfEX-C6rZWjf117gtmzkpsA7OC7eL0iqjT/exec
